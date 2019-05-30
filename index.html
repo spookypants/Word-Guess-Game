@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planet Guess Extreme 2000</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Planet Guess Extreme 2000</h1>
+    </div>
+    <div class="background">
+        <div class="container">
+            <h2>Press Any Key To Get Started</h2>
+            <!-- Scoreboard -->
+            <div>
+                <h3 id="currentWord">_ _ _ _ _</h3>
+            </div>
+            <div id="scoreboard">
+                <!-- Guesses Remaining -->
+                <div class="sidebar">
+                    <h3>Guesses Left: <span id="guessesRemaining"></span></h3>
+                </div>
+                <!-- Win Counter -->
+                <div class="sidebar">
+                    <h3>Wins: <span id="winCounter"></span></h3>
+                </div>
+                <!-- Loss Counter -->
+                <div class="sidebar">
+                    <h3>Losses: <span id="lossCounter"></span></h3>
+                </div>
+                <!-- Wrong Guess -->
+                <div class="sidebar">
+                    <h3>Letters About Which You Were Completely Wrong: <span id="playerGuess"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Possible Audio -->
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
